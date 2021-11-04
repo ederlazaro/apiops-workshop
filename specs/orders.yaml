@@ -19,7 +19,7 @@ paths:
       x-kong-plugin-mocking:
         enabled: true
         config:
-          api_specification_filename: orders.yaml     
+          api_specification_filename: orders.yaml   
       responses:
         '200':
           description: Order object
@@ -45,7 +45,7 @@ paths:
                             {"side": "B", "code": "M"},
                             {"side": "R", "code": "O"},
                             {"side": "R", "code": "S"}
-                        ]                        
+                          ]                        
                         },
                         {
                           "description": "Small, all mushroom and spinach",
@@ -124,7 +124,7 @@ components:
         city:
           type: string
         pizzas:
-          type: Pizzas
+          $ref: "#/components/schemas/Pizzas"
     Orders:
       type: array
       items:
