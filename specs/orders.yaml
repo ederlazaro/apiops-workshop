@@ -40,7 +40,7 @@ paths:
                       "id": "1",
                       "name": "Oscar Lazaro",
                       "address": "123 W. Division St.",
-                      "address2": "Apt 20E",
+                      "address2": "Dpto. 701",
                       "city": "Chicago",
                       "pizzas":[
                         {
